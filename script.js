@@ -81,45 +81,45 @@
 // <<<<<<<<<<< Arrow Function >>>>>>>>>
 
 // 1. Adding two Numbers...........
-const add =(a,b) => a+b;
-console.log(add(5,3));
-// output: 8
+// const add =(a,b) => a+b;
+// console.log(add(5,3));
+// // output: 8
 
-// 2.Squaring a Number.............
-const square = x => x*x;
-console.log(square(4));
-// output: 16
+// // 2.Squaring a Number.............
+// const square = x => x*x;
+// console.log(square(4));
+// // output: 16
 
-// 3.Converting a String to Uppercase........
-const toUpperCase = str => str.toUpperCase();
-console.log(toUpperCase('hello'));
-// output: HELLO
+// // 3.Converting a String to Uppercase........
+// const toUpperCase = str => str.toUpperCase();
+// console.log(toUpperCase('hello'));
+// // output: HELLO
 
-// 4.Doubling Each Element in an Array....
-const doubleArray = arr => arr.map (x => x*2);
-console.log(doubleArray([1,2,3,4]));
-// output: [2, 4, 6, 8]
+// // 4.Doubling Each Element in an Array....
+// const doubleArray = arr => arr.map (x => x*2);
+// console.log(doubleArray([1,2,3,4]));
+// // output: [2, 4, 6, 8]
 
-// 5.Checking if a number is even.........
-const isEven = num => num % 2 === 0;
-console.log(isEven(0));
-console.log(isEven(2));
-console.log(isEven(4));
-console.log(isEven(6));
-console.log(isEven(8));
-console.log(isEven(10));
-console.log(isEven(12));
-console.log(isEven(52));
-// output: true 
-console.log(isEven());
-console.log(isEven(1));
-console.log(isEven(3));
-console.log(isEven(5));
-console.log(isEven(7));
-console.log(isEven(9));
-console.log(isEven(11));
-console.log(isEven(111));
-// output: false
+// // 5.Checking if a number is even.........
+// const isEven = num => num % 2 === 0;
+// console.log(isEven(0));
+// console.log(isEven(2));
+// console.log(isEven(4));
+// console.log(isEven(6));
+// console.log(isEven(8));
+// console.log(isEven(10));
+// console.log(isEven(12));
+// console.log(isEven(52));
+// // output: true 
+// console.log(isEven());
+// console.log(isEven(1));
+// console.log(isEven(3));
+// console.log(isEven(5));
+// console.log(isEven(7));
+// console.log(isEven(9));
+// console.log(isEven(11));
+// console.log(isEven(111));
+// // output: false
 
 
 
