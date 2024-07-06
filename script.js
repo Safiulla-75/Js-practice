@@ -76,52 +76,142 @@
 
 // console.log(4 > 5);
 // console.log(4 < 5);
+// console.log(4 <= 5);
+// console.log(4 >= 5);
 
+// if ,else, else-if use................
+// let age = 87;
+// if (age >= 18){
+//   console.log("You are an eligible Voter")
+// } else {
+//   console.log("You can provide moral support")
+// };  // OUTPUT: You are an eligible Voter
 
-// <<<<<<<<<<< Arrow Function >>>>>>>>>
+// let age = 15;
+// if (age >= 18){
+//   console.log("You are an eligible Voter")
+// } else {
+//   console.log("You can provide moral support")
+// };   // OUTPUT: You can provide moral support
 
-// 1. Adding two Numbers...........
-// const add =(a,b) => a+b;
-// console.log(add(5,3));
-// // output: 8
+// let age = 35;
+// let isEligibleVoter = age >= 18;
 
-// // 2.Squaring a Number.............
-// const square = x => x*x;
-// console.log(square(4));
-// // output: 16
+// if (isEligibleVoter){
+//   console.log("You are an eligible Voter")
+// } else {
+//   console.log("You can provide moral support")
+// }  // OUTPUT: You are an eligible Voter
 
-// // 3.Converting a String to Uppercase........
-// const toUpperCase = str => str.toUpperCase();
-// console.log(toUpperCase('hello'));
-// // output: HELLO
+// let score = 85;
+// if(score >= 90){
+//   console.log("Grade: A")
+// } else if (score >= 80){
+//   console.log("Grade: B")
+// } else if(score >= 70){
+//   console.log("Grade: c")
+// } else {
+//   console.log("Grade: Fail")
+// }  // OUTPUT: Grade: A
 
-// // 4.Doubling Each Element in an Array....
-// const doubleArray = arr => arr.map (x => x*2);
-// console.log(doubleArray([1,2,3,4]));
-// // output: [2, 4, 6, 8]
+// let score = 55;
+// if(score >= 90){
+//   console.log("Grade: A")
+// } else if (score >= 80){
+//   console.log("Grade: B")
+// } else if(score >= 70){
+//   console.log("Grade: c")
+// } else {
+//   console.log("Grade: Fail")
+// }  // OUTPUT: Grade: Fail
 
-// // 5.Checking if a number is even.........
-// const isEven = num => num % 2 === 0;
-// console.log(isEven(0));
-// console.log(isEven(2));
-// console.log(isEven(4));
-// console.log(isEven(6));
-// console.log(isEven(8));
-// console.log(isEven(10));
-// console.log(isEven(12));
-// console.log(isEven(52));
-// // output: true 
-// console.log(isEven());
-// console.log(isEven(1));
-// console.log(isEven(3));
-// console.log(isEven(5));
-// console.log(isEven(7));
-// console.log(isEven(9));
-// console.log(isEven(11));
-// console.log(isEven(111));
-// // output: false
+// let number = 10;
+// if (number > 0){
+//   if (number % 2 === 0){
+//     console.log("The number is Positive and Even.");
+//   } else {
+//     console.log("The number is Positive and Odd.");
+//   }
+// } else if (number < 0){
+//   console.log("The number is Negative.");
+// } else {
+//   console.log("This number is Zero.")
+// };
+// OUTPUT: The number is Positive and Even.
 
+// let number = 7;
+// if (number > 0){
+//   if (number % 2 === 0){
+//     console.log("The number is Positive and Even.");
+//   } else {
+//     console.log("The number is Positive and Odd.");
+//   }
+// } else if (number < 0){
+//   console.log("The number is Negative.");
+// } else {
+//   console.log("This number is Zero.")
+// };
+// OUTPUT: The number is Positive and Odd.
 
+// let number = -5;
+// if (number > 0){
+//   if (number % 2 === 0){
+//     console.log("The number is Positive and Even.");
+//   } else {
+//     console.log("The number is Positive and Odd.");
+//   }
+// } else if (number < 0){
+//   console.log("The number is Negative.");
+// } else {
+//   console.log("This number is Zero.")
+// };
+// OUTPUT: The number is Negative.
 
+// LOGICAL OPERATORS(And '&&',Or '||',Not '!')..................
+// < Use of && AND >
+// let age = 25; 
+// let hasDL = true;
+// if (age >= 18 && hasDL){
+//   console.log("You can drive.");
+// } else {
+//   console.log("You can't drive");
+// } //OUTPUT: You can drive.
 
+// let age = 15; 
+// let hasDL = true;
+// if (age >= 18 && hasDL){
+//   console.log("You can drive.");
+// } else {
+//   console.log("You can't drive");
+// } //OUTPUT: You can't drive.
+
+// < Use of || OR >
+// let day = "saturday";
+// if (day === "saturday" || day === "sunday"){
+//   console.log("It's a weekend!");
+// } else {
+//   console.log("Is's a weekday");
+// }  // OUTPUT: It's a weekend!
+
+// let day = "friday";
+// if (day === "saturday" || day === "sunday"){
+//   console.log("It's a weekend!");
+// } else {
+//   console.log("Is's a weekday");
+// }  // OUTPUT: It's a weekday
+
+// < Use of ! NOT >
+// let isRaining = false;
+// if(!isRaining){
+//   console.log("You don't need an umbrella.")
+// } else {
+//   console.log("You need an umbrella.")
+// }  // OUTPUT: You don't need an umbrella.
+
+// let isRaining = true;
+// if(!isRaining){
+//   console.log("You don't need an umbrella.")
+// } else {
+//   console.log("You need an umbrella.")
+// }  // OUTPUT: You need an umbrella.
 
